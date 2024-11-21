@@ -80,6 +80,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
         return FALSE;
     }
 
+    SetWindowText(hWnd, L"Encodage Image");
+
     ShowWindow(hWnd, nCmdShow);
     UpdateWindow(hWnd);
 
