@@ -2,6 +2,23 @@
 // Fichier Include généré par Microsoft Visual C++.
 // Utilisé par WindowsProject1.rc
 
+#ifndef RESOURCE_H
+#define RESOURCE_H
+
+// Définitions des ressources de la boîte de dialogue
+#define IDD_INPUT_TEXT_DIALOG 101  // ID de la boîte de dialogue
+#define IDC_INPUT_TEXT        1001 // ID du contrôle d'entrée de texte
+#define IDC_STATIC            -1   // ID du texte statique (non utilisé ici mais souvent défini)
+
+#define IDOK                  1    // ID du bouton OK (généralement défini par défaut)
+#define IDCANCEL              2    // ID du bouton Annuler (généralement défini par défaut)
+
+// Assurez-vous d'ajouter d'autres ressources nécessaires (icônes, images, etc.)
+// Par exemple :
+// #define IDI_MYICON            201   // Si vous avez une icône dans votre projet
+
+#endif // RESOURCE_H
+
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
